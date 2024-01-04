@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Courier New', Courier, monospace;
+    --color0: black;
+    --color1: white;
+    --color2: #FFD92B;
+    --color3: #802479;
+    --color4: #127D82;
+    --color5: #1A5623;
+    --color6: #151515;
+}
+
+body {
+    background: url(./images/bg-image.webp) no-repeat top center/cover;
+    height: 100vh;
+}
+
+#book {
+    background: url(./images/bg-page.png) no-repeat top center/cover;
+    height: 100vh;
+    width: 90vw;
+    margin: 0 auto;
+    padding: 10em 8em 10em 12em;
+    text-align: center;
+}
+
+h1 {
+    font: normal bolder 2.5em Cormorant, 'Courier New', Courier, monospace;
+    color: var(--color2);
+    text-shadow: 1px 1px 3px black;
+}
+
+h2 {
+    color: var(--color6);
+    margin: 0.2em auto;
+}
+
+#indice {
+    border: 5pt solid green;
+}
+
+.download img{
+    display: block;
+    height: 3em;
+}
